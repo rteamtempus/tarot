@@ -170,7 +170,7 @@ on conflict (id) do update set
   is_public = excluded.is_public, is_builtin = excluded.is_builtin;
 
 insert into tarot_card_images (deck_id, card_id, image_path) values
-${cards.map((c) => `  (${q(DECK_RWS)}, ${q(c.id)}, ${q(`rws/${c.id}.jpg`)})`).join(',\n')}
+${cards.map((c) => `  (${q(DECK_RWS)}, ${q(c.id)}, ${q(`rws/${c.id}.png`)})`).join(',\n')}
 on conflict (deck_id, card_id) do update set image_path = excluded.image_path;
 
 `;

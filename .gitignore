@@ -52,3 +52,7 @@ Thumbs.db
 # Supabase CLI local
 /supabase/.branches
 /supabase/.temp
+
+# Card art — uploaded to the tarot-card-art Storage bucket, not committed.
+/Cards-png
+/art-upload
