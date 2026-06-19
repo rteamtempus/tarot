@@ -1,0 +1,14 @@
+# Minimal Supabase CLI config for the tarot project.
+#
+# This project shares the life-assistant cloud project (ref snlrpqamjzwoksmoxzir).
+# We only use the CLI for remote `supabase db push` (which reads [db.migrations]);
+# local-stack settings are intentionally left at their defaults. See ../CLAUDE.md
+# for the shared-migration-history notes.
+project_id = "tarot"
+
+[db]
+# Must match the remote major version (life-assistant project is Postgres 17).
+major_version = 17
+
+[db.migrations]
+enabled = true

@@ -1,33 +1,35 @@
 # Seed data
 
-Reference / built-in data for the tarot app. All of it lives in the **shared** Supabase project, so
-**apply it deliberately — only with Rory's go-ahead** (see `../../CLAUDE.md`).
+Built-in / reference data for the tarot app. It ships as **timestamped migrations** (so a single
+`supabase db push` applies schema + data), generated from source by `build-seed.mjs`.
 
-## Files
-- **`build-seed.mjs`** — generator for the deterministic reference data. Run with `npm run seed:build`
-  (from the repo root). Emits `0002_seed_reference.sql`. Idempotent (`ON CONFLICT` upserts), safe to
-  re-run.
-- **`0002_seed_reference.sql`** — GENERATED. Contains:
-  - all 78 canonical cards (RWS-78),
-  - the built-in **Original (RWS-based)** interpretation set (row only),
-  - the built-in **Rider-Waite-Smith** deck + `card_images` path mappings. Paths match the art
-    **as dumped** in the `tarot-card-art` bucket — original filenames at the bucket root
-    (majors `NN-PascalName.png`, minors `SuitNN.png` with courts 11–14). The in-bucket folder is the
-    `ART_PREFIX` constant in `build-seed.mjs` (default `''` = root); set it if the files live in a
-    subfolder and re-run.
-  - the built-in spreads: **Three-Card**, **Celtic Cross**, **Cross of Kells**,
-  - the `tarot_principles` AI scaffolding.
+> Everything lives in the **shared** life-assistant Supabase project. Apply via `supabase db push`
+> deliberately — it writes to the live DB. See [`../../CLAUDE.md`](../../CLAUDE.md) for the
+> shared-migration-history rules.
 
-## Still to generate (content, not structure)
-- **Interpretation meanings** — the upright/reversed **text + keywords** for all 78 cards in the
-  Original set (`tarot_interpretations` rows). This is authored content; generate it as JSON/SQL in a
-  later pass and load into `set_id = 22222222-2222-4222-8222-222222222222`.
-- **Card art** — upload the public-domain RWS images to the `tarot-card-art` bucket at the paths the
-  `card_images` rows expect.
+## Generator
+- **`build-seed.mjs`** — run with `npm run seed:build` (repo root). Reads the canonical card list
+  (hard-coded, RWS-78) and `../../interpretations.json`, and writes two migrations into
+  `../migrations/`:
+  - **`20260619120100_tarot_seed_reference.sql`** — 78 cards; the built-in **Rider-Waite-Smith**
+    deck + `card_images` (paths point at `rws/<original-filename>.png` in the `tarot-card-art`
+    bucket, via the `ART_PREFIX` constant); the **Original (RWS-based)** interpretation-set row; the
+    built-in spreads (**Three-Card**, **Celtic Cross**, **Cross of Kells**); the `tarot_principles`
+    AI scaffolding.
+  - **`20260619120200_tarot_seed_interpretations.sql`** — upright/reversed text + keywords for all
+    78 cards in the Original set.
+  Both are idempotent (`ON CONFLICT` upserts).
 
-## Applying (when approved)
-```
-# schema first, then seed (against the linked shared project)
-supabase db push                       # runs migrations/0001_tarot_init.sql
-psql "$DATABASE_URL" -f supabase/seed/0002_seed_reference.sql
-```
+## Editing the data
+- **Card meanings:** edit `../../interpretations.json`, then `npm run seed:build`. (Its `set_id`/
+  `name` fields are ignored — set_id is forced to the Original set; names live on `tarot_cards`.)
+- **Cards / deck / spreads / principles:** edit `build-seed.mjs`, then re-run.
+- Don't hand-edit the generated `*_seed_*.sql` — regenerate instead.
+- ⚠️ Once a migration has been pushed to the remote, changing its file won't re-apply (the CLI
+  records it as done). To change already-applied data, add a **new** timestamped migration
+  (`supabase migration new tarot_<change>`) — or, pre-first-push, just regenerate.
+
+## Card art
+The images are already uploaded to the public `tarot-card-art` bucket under `rws/` (original
+filenames). `scripts/upload-art.mjs` can re-upload from `Cards-png/` if ever needed (service-role
+key). `CardBacks.png` is in the bucket too (no card row; the app references it directly).

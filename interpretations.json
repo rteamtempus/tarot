@@ -1,0 +1,704 @@
+[
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_00_fool",
+    "name": "The Fool",
+    "upright_keywords": ["new beginnings", "adventure", "spontaneity", "untested potential", "taking a leap"],
+    "upright_text": "A fresh cycle is opening, full of possibility and unplanned opportunity. You're being invited to step forward onto a new path, even though you can't yet see where it leads. Move with openness and curiosity, but stay awake to the real risks along the way; instinct is your ally if you actually listen to it. There's still much to learn before the vision takes shape, so treat this as the first step of a longer journey rather than the destination.",
+    "reversed_keywords": ["recklessness", "missed chances", "poor judgment", "naivety", "acting without thinking"],
+    "reversed_text": "The leap becomes a stumble when it's taken carelessly. This can point to opportunities slipping past, unrealistic expectations, or charging ahead without weighing the consequences for yourself or the people around you. The warning is to slow down and think before the next step, so enthusiasm doesn't tip over into folly."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_01_magician",
+    "name": "The Magician",
+    "upright_keywords": ["willpower", "skill", "focus", "manifestation", "resourcefulness"],
+    "upright_text": "You have the tools and the capability to shape what happens next. This is about applying intellect, talent, and discipline to make real progress, whether in creative work, learning, or simply putting your life in order. Focus your will and you can turn intention into action. Taking genuine control of your life can be uncomfortable; sometimes it means concentrating on what you truly need and releasing what's outworn.",
+    "reversed_keywords": ["indecision", "manipulation", "self-doubt", "misused talent", "deception"],
+    "reversed_text": "The same power, turned the wrong way or left idle. It can show up as wavering, weak follow-through, or skill used to manipulate rather than build. The caution is to align your words with your actions, take ownership of your own choices instead of waiting on others, and never use knowledge or influence to control someone else for your own gain."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_02_high_priestess",
+    "name": "The High Priestess",
+    "upright_keywords": ["intuition", "the subconscious", "hidden knowledge", "inner wisdom", "mystery"],
+    "upright_text": "Something is at work beneath the surface, not yet ready to be seen. This card points to intuition, dreams, and knowledge that rises from within rather than from the obvious facts. It favors the perceptive and the imaginative, those who can sense more than they can prove. The wisest move is to listen more than you speak and trust what your deeper mind is quietly telling you.",
+    "reversed_keywords": ["disconnection", "surface thinking", "ignored intuition", "imbalance", "withheld truth"],
+    "reversed_text": "A turning away from inner knowing: overriding instinct, leaning only on the surface of things, or losing touch with your own depth. It can suggest cynicism, secrets held back, or a refusal to engage with the parts of yourself that don't fit a tidy story. Reconnecting with your intuition is the way back into balance."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_03_empress",
+    "name": "The Empress",
+    "upright_keywords": ["abundance", "creativity", "fertility", "nurturing", "growth"],
+    "upright_text": "A fertile, generative time, with ideas, projects, relationships, or material things coming into bloom. For the creative it's rich imagination producing something of real beauty; for the practical it's nature's abundance and steady growth. There's nurturing energy here and a promise of security and flourishing, as long as it's tended with care.",
+    "reversed_keywords": ["blocked creativity", "scarcity", "neglect", "smothering", "dependence"],
+    "reversed_text": "The flow is choked off, through creative blocks, lack, or wastefulness, sometimes from poor decisions or self-indulgence. It can also point to nurturing gone wrong: care that turns controlling or smothering, or growth that's being held back. The work is to unblock the channel and rebalance how you give and receive."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_04_emperor",
+    "name": "The Emperor",
+    "upright_keywords": ["authority", "structure", "leadership", "stability", "protection"],
+    "upright_text": "Order, discipline, and steady leadership. This card can mark dedication to the task in front of you, the support of a stable and experienced figure, or your own capacity to build structure and stand firm. It backs decisive action and the drive to strengthen both your position and your mind.",
+    "reversed_keywords": ["domination", "rigidity", "loss of control", "immaturity", "being undermined"],
+    "reversed_text": "Authority turned harsh, or lost altogether: control slipping, inflexibility, or someone wielding power over you unfairly. It can urge you not to pick a fight you'll lose, to step into your own independence rather than staying dependent, and to handle conflict calmly rather than in anger. Watch for anyone trying to cheat you of what's rightfully yours, and read the fine print."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_05_hierophant",
+    "name": "The Hierophant",
+    "upright_keywords": ["tradition", "convention", "belief systems", "guidance", "conformity"],
+    "upright_text": "This card speaks to established structures, religion, institutions, shared norms, and the comfort or pressure of belonging to them. It can reflect a pull toward conformity and approval, or the genuine value of a trusted teacher and inherited wisdom. At its best it reconciles outer form with inner meaning; at its narrowest it can keep you from looking past the surface, both within a tradition and within yourself.",
+    "reversed_keywords": ["nonconformity", "new approaches", "free thinking", "questioning", "unorthodoxy"],
+    "reversed_text": "A move away from the conventional: originality, independent thinking, and openness to fresh ideas, with real freedom to explore your own path and beliefs. The balance is to stay discerning. Question what's handed to you, don't get swept up by false certainty or a charismatic voice, and hold to what you've actually tested for yourself."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_06_lovers",
+    "name": "The Lovers",
+    "upright_keywords": ["choice", "love", "attraction", "union", "alignment of values"],
+    "upright_text": "A meaningful choice, often in matters of the heart or partnership. It asks you to look honestly at what you're drawn to and why, whether it's genuine connection or passing temptation, and to decide with care. The right decision may be hard-won but it tends to be worth it. Pay attention to what your deeper self is signaling beneath the noise.",
+    "reversed_keywords": ["discord", "misalignment", "broken trust", "indecision", "conflict"],
+    "reversed_text": "Partnership under strain: quarrels, broken trust, unstable feelings, or choices that lead toward heartache. The push is to stop avoiding the decision, to take relationships seriously rather than treating them carelessly, and to resolve what's genuinely at stake instead of letting it drift into disappointment."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_07_chariot",
+    "name": "The Chariot",
+    "upright_keywords": ["willpower", "victory", "drive", "self-mastery", "momentum"],
+    "upright_text": "Triumph through focused effort and self-control. Obstacles give way when you steer with discipline instead of letting opposing forces pull you off course. Success here comes from your own application; the task falls to you, and the effort pays off. A strong card for forward motion and for travel.",
+    "reversed_keywords": ["loss of control", "force", "restlessness", "imbalance", "aggression"],
+    "reversed_text": "The reins slipping: victory chased by the wrong means, inner restlessness, or trying to push through by sheer force. It can warn of conflict, scattered energy, or imbalance within yourself. The lesson is to lead with direction and wisdom rather than brute force, or you'll lose your footing."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_08_strength",
+    "name": "Strength",
+    "upright_keywords": ["inner strength", "courage", "patience", "compassion", "gentle control"],
+    "upright_text": "Strength here is the quiet kind: courage, composure, and your higher nature mastering raw impulse. It's the steadiness of someone who eases tension rather than escalating it, who meets a hard situation with patience and moral conviction. If you're in conflict, it reassures you that calm, principled action is the ground to stand on.",
+    "reversed_keywords": ["self-doubt", "lost composure", "harshness", "indulgence", "weak resolve"],
+    "reversed_text": "Strength gone shaky: discord, loss of discipline, or being worn down by your own excess or by someone exerting unhealthy control over you. It can warn of damage to your reputation through indulgence or stubbornness, or of hurt coming from someone close. The remedy is to understand the root of those failings, in yourself and in others, with some compassion."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_09_hermit",
+    "name": "The Hermit",
+    "upright_keywords": ["introspection", "solitude", "inner guidance", "wisdom", "seeking truth"],
+    "upright_text": "A time to step back from the noise and look inward. The answers you're after may come through reflection, meditation, or the counsel of a genuine teacher or guide. Withdrawing from the rush can bring clarity and even surface long-hidden truths. There may be a journey, outer or inner, to reach the understanding you're seeking.",
+    "reversed_keywords": ["isolation", "stubbornness", "evasion", "false guidance", "refusing wisdom"],
+    "reversed_text": "Withdrawal that's curdled: over-caution, stubbornness, or hiding from what you need to face. It warns against deceiving yourself or being deceived, and against handing your power to someone who wants it for their own ends. If a teacher or guide can't be honest with you, look elsewhere, and keep asking real questions."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_10_wheel_of_fortune",
+    "name": "Wheel of Fortune",
+    "upright_keywords": ["change", "cycles", "turning point", "fortune", "momentum"],
+    "upright_text": "The wheel turns and a shift in fortune arrives, often a welcome one: a turning point that rewards clear thinking and rides the natural cycles of things. Circumstances start moving in your favor, with a sense of destiny or momentum at hand. The reminder underneath it is that everything moves; nothing stays fixed for long.",
+    "reversed_keywords": ["setbacks", "bad timing", "resistance", "stagnation", "consequences"],
+    "reversed_text": "The wheel turns the other way: difficulties, delays, or consequences coming home to roost, and a sense of working hard against the current. The counsel is patience and acceptance. Stop trying to force what can't be forced, and put your energy into changing the cycles you actually can, or you risk staying stuck."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_11_justice",
+    "name": "Justice",
+    "upright_keywords": ["fairness", "balance", "truth", "accountability", "sound judgment"],
+    "upright_text": "Things come into balance: truth surfaces, fairness prevails, and matters of law, agreement, or arbitration tend to resolve in your favor. Having set aside what once distorted your judgment, you're seeing clearly and deciding well. A good card for contracts, commitments, and honest dealings of all kinds.",
+    "reversed_keywords": ["unfairness", "imbalance", "bias", "dishonesty", "avoidance of accountability"],
+    "reversed_text": "Justice out of true: unfairness, bias, or legal and personal complications stacked against you. It can also turn inward, with your own balance off and tipping you toward harshness or a lack of compassion. When the scales are tilted, it's often wiser to pause before acting until you can face your own part honestly and set things level again."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_12_hanged_man",
+    "name": "The Hanged Man",
+    "upright_keywords": ["surrender", "new perspective", "pause", "letting go", "insight"],
+    "upright_text": "A meaningful pause: a willingness to suspend action, shift your perspective, and let go of what's no longer needed. Sacrifices made now tend to bring later rewards, and surrendering to a needed transformation can open access to insight and inner guidance. The wisdom here comes from seeing things from an entirely different angle.",
+    "reversed_keywords": ["stalling", "self-absorption", "resistance", "wasted effort", "false martyrdom"],
+    "reversed_text": "The pause hardens into being stuck: too much self-focus, resistance to change, or energy poured into the wrong things. It can warn against pointless sacrifice or making yourself everyone's servant, and against people who'd take advantage of you. Don't get pulled into struggles that only end in loss."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_13_death",
+    "name": "Death",
+    "upright_keywords": ["endings", "transformation", "renewal", "release", "rebirth"],
+    "upright_text": "An ending that clears the way for something new. Real change is underway, a shedding of the old so that fresh ideas, opportunities, and renewed energy can take root. It may feel like loss at first, but moving through it brings a sense of liberation and even improved wellbeing. What's ending needed to end.",
+    "reversed_keywords": ["stagnation", "resistance to change", "fear", "clinging", "decline"],
+    "reversed_text": "Change resisted: clinging to what's already over, refusing to face your fears, or staying in patterns that quietly drain you. It can mark a heavy, difficult stretch. The message is that change is coming regardless, and you get to choose its form, so it's better to move with it than to fight it into disaster."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_14_temperance",
+    "name": "Temperance",
+    "upright_keywords": ["balance", "moderation", "patience", "harmony", "integration"],
+    "upright_text": "Blending and balance: self-control, moderation, and the patience to combine different elements into something harmonious. Cooperation flows, and steady work on yourself brings what you've been reaching for. Take your time before deciding; let things settle and find their right measure rather than forcing them.",
+    "reversed_keywords": ["imbalance", "excess", "conflict", "discord", "poor timing"],
+    "reversed_text": "The mix goes wrong: competing interests, friction, or a pull toward excess and extremes. Watch for small arguments that swell into real separation. The work is to stay moderate and keep your composure with others, even the difficult ones; that steadiness can shift the whole dynamic in your favor."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_15_devil",
+    "name": "The Devil",
+    "upright_keywords": ["attachment", "excess", "materialism", "restriction", "unhealthy patterns"],
+    "upright_text": "A pull toward what binds you: overindulgence, materialism, or patterns that feel like a trap. It can point to discontent or being caught in something that drains your peace of mind. The reminder is that you're freer than you feel. Don't tie yourself to what you don't need, watch for the slide into dependence, and clear out whatever is holding you down.",
+    "reversed_keywords": ["release", "breaking free", "reclaiming power", "awareness", "liberation"],
+    "reversed_text": "The beginning of release: recognizing what you actually need and stepping out of what held you. Freedom is returning, and the worst of it is passing. Through your own effort you can clear a path forward, pushing past self-interest and old habits. Don't give up right before the breakthrough."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_16_tower",
+    "name": "The Tower",
+    "upright_keywords": ["upheaval", "sudden change", "disruption", "revelation", "collapse of the false"],
+    "upright_text": "A sudden shake-up that brings down what was unstable. It can mean conflict, disruption, or the collapse of something built on a weak foundation: unsettling, but often clearing away outworn ideas and structures. There's enlightenment in it if you listen to what it reveals. Sometimes it marks a dramatic but necessary change, even a fresh start somewhere new.",
+    "reversed_keywords": ["averted disaster", "fear of change", "prolonged crisis", "hard-won freedom"],
+    "reversed_text": "Upheaval that costs you: a harder, more drawn-out version of the same reckoning, or conflict you may have a hand in causing. Accusations or pressure may land, and freedom from them has to be earned. Treat it as a wake-up call; heed the warning signs, and know that all is not lost."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_17_star",
+    "name": "The Star",
+    "upright_keywords": ["hope", "inspiration", "renewal", "faith", "healing"],
+    "upright_text": "This is the card of hope, joy, and quiet wonder. It invites you to draw on imagination and intuition, to listen to your dreams, and to trust the gifts you carry. Open yourself to inspiration and to the care others offer, and let that care flow back out to them. Possibilities can become real now, especially in creative work, so don't hold back when something genuine calls to you.",
+    "reversed_keywords": ["doubt", "discouragement", "rigidity", "self-neglect", "lost faith"],
+    "reversed_text": "Hope dimmed by pessimism, stubbornness, or self-doubt. Expecting the worst tends to cloud your judgment, and rigid thinking keeps you boxed in. The way out is to soften: let yourself be supported, trust sound advice, and stop discounting your own intelligence and gifts. Step outside the mental walls you've built."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_18_moon",
+    "name": "The Moon",
+    "upright_keywords": ["intuition", "imagination", "dreams", "the unconscious", "creativity"],
+    "upright_text": "Imagination and intuition are running strong. It's a fertile time for dreams, creative work, and trusting what you sense beneath the obvious. Follow that inner pull and let ideas flow; whatever stormy stretch you've been in tends to ease, the way the moon wanes. Lean into the imaginative and the unspoken.",
+    "reversed_keywords": ["illusion", "deception", "confusion", "fear", "self-deceit"],
+    "reversed_text": "The risk here is illusion, whether from others or from yourself. Don't let broken dreams or wishful thinking pull you out of reality; stay grounded and clear-eyed. Watch for those who'd deceive you, and be honest with yourself about anything you might be distorting. If things feel murky, stay calm; clarity comes through clear thinking rather than panic."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_19_sun",
+    "name": "The Sun",
+    "upright_keywords": ["joy", "success", "vitality", "clarity", "fulfillment"],
+    "upright_text": "A bright, warm card: happiness, success, and the satisfaction of seeing your efforts pay off. Good things tend to gather here, whether in work, study, relationships, or a happy reunion. There's a sense of liberation and of the world opening up. Hold on to your sense of wonder and let yourself enjoy the simple pleasures; this is a strong, positive card.",
+    "reversed_keywords": ["dimmed joy", "uncertainty", "setbacks", "loss", "low spirits"],
+    "reversed_text": "The sun behind clouds: a harder stretch of uncertainty, strain in relationships, work, or health, and a dip in spirits. Watch for arrogance or vanity, which only deepen the trouble. It often comes from losing touch with your own gifts and openness, so think carefully before any rash decisions. The clouds pass and the sun returns, just not quite yet."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_20_judgement",
+    "name": "Judgement",
+    "upright_keywords": ["awakening", "renewal", "reckoning", "clarity", "a fresh chapter"],
+    "upright_text": "A sense of awakening and renewal: work that's paid off, a clearer mind, and old fears set aside in favor of real understanding. You can take genuine pride in what you've completed, and rewards tend to follow. New journeys may open, literal or inner, and if you've been weighing a new venture, this favors going for it. In legal or business matters it leans toward a resolution in your favor.",
+    "reversed_keywords": ["self-doubt", "avoidance", "regret", "fear", "hesitation"],
+    "reversed_text": "A narrowed, fearful view. Passing praise or status won't sustain you, so don't stay passive; act while you can. This isn't the moment to push a legal matter, which would likely go against you. Much of the difficulty here grows from unnecessary fear and worry; ease up on yourself, and remember that hard losses, though painful, do soften with time."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "major_21_world",
+    "name": "The World",
+    "upright_keywords": ["completion", "fulfillment", "integration", "success", "new horizons"],
+    "upright_text": "A cycle completes and comes together: rewards earned, projects realized, and a real sense of fulfillment and confidence. With one chapter closed you're free to begin another, whether that's travel, a move, a new role, or an inner journey. What you've worked hard for is within reach, and you can see the longer-term future you want more clearly now.",
+    "reversed_keywords": ["incompletion", "delay", "stagnation", "fear of change", "narrow view"],
+    "reversed_text": "Success not yet arrived, often because you can't, or won't, see the whole picture. Step outside your familiar walls; there's a wider world to engage with. Don't let fear of change or too much inward focus keep you stuck. Things may still need time to conclude, so keep moving forward rather than letting life pass you by."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_01",
+    "name": "Ace of Wands",
+    "upright_keywords": ["new beginnings", "inspiration", "creative spark", "drive", "potential"],
+    "upright_text": "A surge of creative energy and fresh starts. It's a strong time for new ideas, new ventures, and acting on inspiration, with momentum on your side. Have an adventure, take the initiative, follow the spark. News you've been waiting for may arrive, and insight can land all at once as a sudden realization. New growth of many kinds is favored here.",
+    "reversed_keywords": ["false starts", "blocked energy", "delay", "poor judgment", "decline"],
+    "reversed_text": "The spark sputters: false starts, stalled plans, or ventures that fizzle before they begin. Clouded thinking can let good projects slip into disarray, and momentum drains away. The caution is against letting carelessness or excess take the place of a steady, responsible approach. Wait for clearer judgment before you commit."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_02",
+    "name": "Two of Wands",
+    "upright_keywords": ["planning", "vision", "ambition", "choices", "taking stock"],
+    "upright_text": "You have much of what you need and now stand at a planning point. Keep setting meaningful goals, or it's easy to drift into restlessness; aim for more than material gain and include your own growth in the picture. Patience is called for, and any influence you hold is worth using thoughtfully. The wider view you're forming will guide the next move.",
+    "reversed_keywords": ["fear of change", "insecurity", "impatience", "surprise", "second-guessing"],
+    "reversed_text": "The polished image of success, your own or other people's, can mislead; there's often turmoil under the surface. If you have something to protect, fear of losing it can breed insecurity and self-doubt. Something that began well may shift unexpectedly. Smaller disappointments may crop up; keep them in proportion rather than letting them rattle you."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_03",
+    "name": "Three of Wands",
+    "upright_keywords": ["foresight", "expansion", "collaboration", "progress", "opportunity"],
+    "upright_text": "Earlier decisions, especially in work or a venture, are starting to bear fruit, often thanks to cooperation with others. Keep tending those relationships if you want the momentum to continue, and stay open to good advice, particularly around money. There may also be a welcome discovery, something you weren't aware of that opens a door.",
+    "reversed_keywords": ["resolution", "rest after effort", "false help", "delays", "caution"],
+    "reversed_text": "A stretch of struggle eases and you can relax; the work is done and the outcome is largely out of your hands now. If you've been in conflict, you move into calmer water, though more challenges may come, so rest while you can. Disappointment, if any, will pass. Be wary of anyone whose help or advice mainly serves themselves."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_04",
+    "name": "Four of Wands",
+    "upright_keywords": ["celebration", "stability", "home", "harmony", "milestones"],
+    "upright_text": "A moment to pause and celebrate what you've accomplished; the waiting is over and the goal is reached. Consider a real break, and share the success with the people who helped you get here. The card carries a sense of refuge, the warmth of home and family, and the joy of community. It also resonates with the creative arts and simple, grounded contentment.",
+    "reversed_keywords": ["muted satisfaction", "lingering stress", "incomplete rest", "holding back"],
+    "reversed_text": "The accomplishment is real, but the satisfaction you expected feels thinner than it should. The work is done and rest is earned, yet stress lingers. The task now is to actually let go of the tension and allow yourself to celebrate what you've achieved, rather than rushing straight past it."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_05",
+    "name": "Five of Wands",
+    "upright_keywords": ["competition", "conflict", "striving", "tension", "testing"],
+    "upright_text": "A competitive, contested stretch where something real is at stake, often the effort to build security or get ahead through work. It calls for courage and quick thinking; look for fresh angles to gain an edge. Keep your balance and don't lose sight of the goal amid the friction. Progress here comes through dedication rather than ease.",
+    "reversed_keywords": ["avoidable conflict", "bluster", "petty disputes", "overreaction", "false alarm"],
+    "reversed_text": "The fight may be more illusion than substance, more noise than real threat. Whether it's a personal clash or a legal tangle, you can ease up; it's likely not as bad as it appears. Don't charge in all at once. Sit back, stay patient, and let things run their course rather than escalating them."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_06",
+    "name": "Six of Wands",
+    "upright_keywords": ["victory", "recognition", "success", "good news", "support"],
+    "upright_text": "A win and the recognition that comes with it, often arriving as good news after a real effort or struggle. It's a moment to celebrate, and to let the people who helped you share in it; their contribution deserves acknowledgment too. Sometimes this card points to the bearer of the news as much as the news itself.",
+    "reversed_keywords": ["delay", "disloyalty", "setback", "fear", "betrayed trust"],
+    "reversed_text": "The messenger isn't on your side. News may come while your plans are quietly shared with others, or someone close may be undermining you, even encouraging others to turn. Gains by rivals tend to come at your expense, and your own success may be pushed back. Watch where your trust is placed."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_07",
+    "name": "Seven of Wands",
+    "upright_keywords": ["defending your position", "courage", "perseverance", "standing firm"],
+    "upright_text": "You're in a competitive spot and may feel outnumbered or outmatched, perhaps in debate or in business, but you actually hold the stronger ground. Whatever the odds or your own doubts, standing firm and acting with courage tends to carry the day. It may also signal a delay before the win finally lands.",
+    "reversed_keywords": ["indecision", "anxiety", "overwhelm", "hesitation", "perceived threat"],
+    "reversed_text": "The push is to make a decision; hesitation here is what costs you. Don't let fear, anxiety, or confusion run the show, and don't act from ignorance. Get the full facts before wading into what may only look like a threat. A clear head turns the situation back in your favor."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_08",
+    "name": "Eight of Wands",
+    "upright_keywords": ["speed", "movement", "news", "momentum", "swift developments"],
+    "upright_text": "Things move quickly now, often toward completion, resolution, or success, and any delays are lifting. Events can arrive fast and a little unexpectedly. The card also carries notes of love and connection, a deepening bond with someone known or newly arrived, and it can point to travel. Expect a busy, fast-moving stretch.",
+    "reversed_keywords": ["delays", "friction", "jealousy", "miscommunication", "stagnation"],
+    "reversed_text": "Momentum stalls and tension creeps in, with jealousy, quarrels, or domestic friction in the mix, sometimes within a close relationship. Emotional stagnation can turn warmth into conflict if you let it. Don't feed the jealousy; it only leads to arguments and regret. In work matters it can signal an unforeseen delay."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_09",
+    "name": "Nine of Wands",
+    "upright_keywords": ["resilience", "perseverance", "last stand", "inner strength", "readiness"],
+    "upright_text": "A pause in the struggle that lets you rest and gather yourself. You're defending something that genuinely matters to you, and that gives you the motivation to see it through. Between your mental resolve, your strength of will, and your stamina, you're well-positioned to succeed, even if you've taken some hits along the way.",
+    "reversed_keywords": ["depletion", "ongoing struggle", "weariness", "strain", "ill health"],
+    "reversed_text": "The struggle drags on and will ask a lot of you to get through. It can wear on both body and mind, and run you down if you don't pace yourself. The clear message is to take real time to rest and recover rather than pushing past your limits."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_10",
+    "name": "Ten of Wands",
+    "upright_keywords": ["burden", "overload", "responsibility", "strain", "tunnel vision"],
+    "upright_text": "A heavy load that's hard to carry, sometimes tied to emotional strain as much as practical weight. Don't let yourself become a beast of burden for others; you're unlikely to be thanked, and what you gain may be taken anyway. Honor your own needs and resist the martyr role. The end of the strain will come, though often at a cost, so lift your head now and then to plan ahead.",
+    "reversed_keywords": ["hidden difficulties", "intrigue", "setbacks", "power plays", "loss"],
+    "reversed_text": "The difficulties here aren't easily overcome, and there may be intrigue or a power play in motion that you can't yet see. If a legal matter is involved, be careful: any success is likely to come at a real cost. Move cautiously and assume you don't have the whole picture."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_page",
+    "name": "Page of Wands",
+    "upright_keywords": ["enthusiasm", "a spirited messenger", "new energy", "a trusted friend"],
+    "upright_text": "Beauty, courage, and enthusiasm define this card. It can represent someone already in your life or someone just arriving, but reliably a person you can trust, possibly one who'll connect you with someone helpful. They tend to be a true friend or even a lover, emotionally lively, quick to warmth and quick to temper, and passionate and full of fresh ideas. Drawn for yourself, it reflects a kind, considerate, somewhat adventurous nature.",
+    "reversed_keywords": ["bad news", "instability", "a volatile person", "broken trust", "exaggeration"],
+    "reversed_text": "Unsettling news or misleading information may be heading your way, enough to throw things off balance for a while. Watch for people who flare up without cause, and be careful with a lover who could hurt you. Be wary of someone cruel, domineering, or power-seeking, a shallow, theatrical type who takes shortcuts and won't mind trampling your feelings to get what they want. Take what they say with skepticism; they tend to exaggerate."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_knight",
+    "name": "Knight of Wands",
+    "upright_keywords": ["energy", "adventure", "boldness", "momentum", "a change of place"],
+    "upright_text": "A card of restless, energetic movement. It can represent a friendly, generous, action-loving person who sometimes rushes ahead on impulse, or a change of scene, even a move or a sudden departure. A new adventure may be approaching. If this is you, the advice is to pause and think before charging at everything at once; a little stillness makes the adventures go better.",
+    "reversed_keywords": ["frustration", "delays", "scattered energy", "conflict at home", "recklessness"],
+    "reversed_text": "Plans for travel or adventure stall, and your energy feels spent. Conflict or disturbance at home may be holding you back, and pushing ahead now could take you into territory you're not ready for and leave you cut off from those around you. Expect some friction, don't trust everything you're told, and steer clear of people stirring up trouble."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_queen",
+    "name": "Queen of Wands",
+    "upright_keywords": ["warmth", "confidence", "practicality", "generosity", "a capable presence"],
+    "upright_text": "This can represent a warm, honorable, grounded person, practical with money and sound in judgment, generous and kind, who tends to attract good fortune. A natural homemaker and nurturer, often the strong center of a large family, and a good omen for success in business. It may also point to someone honorable who supports you, firm at times but always ready to help those willing to help themselves.",
+    "reversed_keywords": ["domineering", "jealousy", "stubbornness", "holding grudges", "volatility"],
+    "reversed_text": "A more difficult version: someone who may turn on you without obvious cause, controlling or manipulative, convinced they're always right and quick to imagine slights. Jealous by nature, they can hold a grudge for a long time and react harshly when offended. It can also point to unfaithfulness. Tread carefully around this energy, whether it shows up in someone else or in yourself."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "wands_king",
+    "name": "King of Wands",
+    "upright_keywords": ["leadership", "vision", "confidence", "integrity", "charisma"],
+    "upright_text": "A passionate, intelligent leader, knowledgeable and good-natured, the sort who gives sound advice and makes a loyal friend. Courageous and fair-minded, with a strong sense of justice and a great sense of humor; he believes in solid values and dislikes pettiness. Honorable and quick-thinking in business, he's at his best relaxed among people he trusts, where his thinking sparks the best conversations.",
+    "reversed_keywords": ["domineering", "intolerance", "stubbornness", "harshness", "hot temper"],
+    "reversed_text": "Handle this energy with care. It can show up as indecision over small things paired with deep stubbornness, making the person hard to reason with. Backed into a corner they may turn harsh or ruthless, prone to prejudice and a quick temper, fanatically certain they're right even when badly wrong. When this side surfaces, judgment suffers; if it describes someone with power over you, be cautious."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_01",
+    "name": "Ace of Cups",
+    "upright_keywords": ["love", "emotional fulfillment", "joy", "new feeling", "openness"],
+    "upright_text": "The opening of love, joy, and contentment. Beauty, pleasure, and emotional or spiritual richness come to the foreground, and the heart feels full. Creativity flows and a sense of abundance surrounds you. You may have moments of real insight or intuition; pay attention to your dreams and inner life, as they have a lot to offer right now.",
+    "reversed_keywords": ["emotional emptiness", "disconnection", "sadness", "blocked feeling", "rigidity"],
+    "reversed_text": "A sense of emptiness, sadness, or unreturned affection, with a feeling of being cut off from yourself or others. You may be dissatisfied or afraid to open your heart, and some of that pain stems from your own inflexibility or hardened attitudes. Change may be coming, so stay discerning, but don't ignore what's happening around you. Once you let yourself notice and learn, things start to flow again."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_02",
+    "name": "Two of Cups",
+    "upright_keywords": ["connection", "partnership", "mutual love", "balance", "reconciliation"],
+    "upright_text": "A card of love and harmony in relationship, a balanced bond with a partner present or future. Underneath it points to balance within yourself too, the meeting of your own contrasting sides, which is what lets you truly love. When it appears, it suggests you've found that inner equilibrium and can share real happiness with someone.",
+    "reversed_keywords": ["imbalance", "miscommunication", "disharmony", "shallow connection", "tension"],
+    "reversed_text": "An imbalance within yourself and within a relationship. It can point to a connection that's all desire and no real warmth, which tends to leave you empty, or to emotional distance and poor communication. When misunderstandings pile up, affection between partners can wear thin and start to fail. The work is to restore balance and honest connection."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_03",
+    "name": "Three of Cups",
+    "upright_keywords": ["celebration", "friendship", "joy", "community", "abundance"],
+    "upright_text": "A card of celebration: success, good fortune, and happy times shared with others. Mind, body, and spirit are in harmony, and you've done well in your ventures. It's a moment to set down the stress and savor what you've achieved, to enjoy the pleasures of the senses and the company of friends. You're allowed to relish this.",
+    "reversed_keywords": ["overindulgence", "excess", "hangover", "depletion", "imbalance"],
+    "reversed_text": "Too much of a good thing. The pleasures may have tipped into overindulgence, with food, drink, or other excess taking a toll on body and mind. The reminder is moderation; if you keep pushing past it, you risk real imbalance and could lose some of what you've gained. Ease back into a healthier rhythm."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_04",
+    "name": "Four of Cups",
+    "upright_keywords": ["apathy", "dissatisfaction", "reevaluation", "missed opportunity", "withdrawal"],
+    "upright_text": "A flat, restless stretch where you don't quite register how much you've actually achieved. Success hasn't brought the satisfaction you expected, and fixating on that discontent can blind you to opportunities being offered right now. Use the lull to reconsider what you really want, accept the kindness others extend, and resist a narrow view of your choices and your future. You've done more than you give yourself credit for.",
+    "reversed_keywords": ["renewed motivation", "new goals", "fresh energy", "re-engagement"],
+    "reversed_text": "You're coming out of a difficult patch, newly energized about what's ahead. The options are laid out and you've chosen your direction. It's a good moment to commit to new goals and to start building fresh connections with the people around you."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_05",
+    "name": "Five of Cups",
+    "upright_keywords": ["grief", "loss", "disappointment", "regret", "mourning"],
+    "upright_text": "A card of loss and the sorrow that comes with it, sometimes a broken relationship or friendship. The caution is not to become so absorbed in what's gone that you overlook what you still have. Dwelling only on disappointment and regret tends to deepen the loss, especially in your relationships. Acknowledge the grief, but don't let it close off what remains.",
+    "reversed_keywords": ["acceptance", "recovery", "renewed bonds", "hope", "moving on"],
+    "reversed_text": "The grief begins to lift; not all is lost, and good times will come around again. You start to enjoy life as you once did. New connections may form, and old friends you haven't seen in a while may return. Your outlook for the future is genuinely brighter."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_06",
+    "name": "Six of Cups",
+    "upright_keywords": ["nostalgia", "fond memories", "kindness", "reunion", "simple joy"],
+    "upright_text": "A card of warmth and happiness, often with the past catching up in a good way: kind things you did earlier now bearing fruit as joy. It can mark a reunion with an old acquaintance or a meeting that brings an easy, innocent affection. Fresh opportunities, new knowledge, and even unexpected gifts may be on the horizon.",
+    "reversed_keywords": ["living in the past", "clinging", "nostalgia", "outdated patterns"],
+    "reversed_text": "The pull of the past becomes a trap. Clinging to old ideas, habits, or relationships purely out of nostalgia can blind you to the present, and they may only weigh you down once they've outlived their purpose. The card can also touch on inheritance or what's passed down. Loosen your grip on what no longer serves you."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_07",
+    "name": "Seven of Cups",
+    "upright_keywords": ["fantasy", "wishful thinking", "options", "illusion", "scattered focus"],
+    "upright_text": "A card of dreams, visions, and an imagination running ahead of reality. Don't get seduced by everything that might be, or let fantasy steer what you're actually trying to build. In the end it takes real effort to succeed; nothing simply lands in your lap. Be honest with yourself about how far you've truly come rather than mistaking the daydream for the deed.",
+    "reversed_keywords": ["focus", "resolve", "clear choices", "determination", "grounded action"],
+    "reversed_text": "A turn toward clarity and follow-through. Keep building on the wins you've earned with your own will and determination. When choices come up, weigh them thoughtfully and stay grounded in what actually needs doing rather than what merely glitters."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_08",
+    "name": "Eight of Cups",
+    "upright_keywords": ["walking away", "seeking meaning", "leaving behind", "transition", "search"],
+    "upright_text": "At first glance this looks bleak: a sense of having abandoned advantages or success, materially or personally, and a warning of disappointment in love. Often it reflects a turn away from worldly things toward something deeper or more spiritual. Even so, don't discard what you've built without real thought, and know that the journey you're setting out on may not reach its hoped-for destination.",
+    "reversed_keywords": ["re-engagement", "seizing success", "celebration", "the material world"],
+    "reversed_text": "A renewed appetite for success and the practical world. When a real chance appears, take it while you can. The card can also point to celebration, especially anything involving travel. For now, your material needs may rightly take priority over the more spiritual ones."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_09",
+    "name": "Nine of Cups",
+    "upright_keywords": ["contentment", "satisfaction", "comfort", "wishes fulfilled", "wellbeing"],
+    "upright_text": "Often called the wish card: a sense of satisfaction and the good life. Many of the things you've wanted, comfort, security, good health, feel within reach, and there's a real contentment in the knowledge that your footing is solid. Enjoy the sense that your future looks assured.",
+    "reversed_keywords": ["complacency", "overindulgence", "false security", "smugness", "excess"],
+    "reversed_text": "A warning against assuming everything is settled. The belief that your future is guaranteed can be a false comfort; this isn't the time to coast, as there's still work to do and no certainty your wishes will land. Watch for overindulgence, especially food and drink, which can take a toll on your health if left unchecked."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_10",
+    "name": "Ten of Cups",
+    "upright_keywords": ["harmony", "lasting happiness", "family", "fulfillment", "peace"],
+    "upright_text": "A card of the heart's deeper desire: lasting contentment and joy that runs through your whole life. It signals not just success but real happiness drawn from it. It can mark the fullness of love between partners, or a strong and genuine friendship, and you may find yourself playing the peacemaker, bringing people together.",
+    "reversed_keywords": ["broken harmony", "betrayal", "conflict", "waste", "misplaced joy"],
+    "reversed_text": "The harmony is at risk. What you've built could be wasted through carelessness, and there's a caution about betrayal: a friend may not be who they seem. Above all, don't take pleasure in others' misfortunes, least of all ones you helped bring about. There's no pride to be found there."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_page",
+    "name": "Page of Cups",
+    "upright_keywords": ["sensitivity", "creativity", "a gentle messenger", "new feeling", "imagination"],
+    "upright_text": "A tender, artistic, imaginative spirit. It can represent a sensitive young person, helpful and deeply feeling, who experiences emotional ups and downs keenly and may withdraw at times. It can also signal new creative projects, or the birth of something, literal or figurative, marked by sensitivity and a capacity for great love. It may herald young love or a proposal, and reflection or meditation will serve you well.",
+    "reversed_keywords": ["emotional immaturity", "deceit", "idleness", "escapism", "poor judgment"],
+    "reversed_text": "A more troubled note: disappointment in love or immature emotional patterns, the sense that deeper connection is still a skill to learn. There may be little drive to nurture your creativity. Watch for selfish, idle, or gossiping people, and be wary of deception or being talked, or seduced, into something you know isn't right."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_knight",
+    "name": "Knight of Cups",
+    "upright_keywords": ["romance", "charm", "idealism", "a proposal", "following the heart"],
+    "upright_text": "A graceful, poetic, sensitive figure, a dreamer who can be easily swayed by others, sometimes a visionary or seeker restless in pursuit of an ideal. The card can signal a message carrying a proposal or an invitation, or the return of a friend or loved one from afar: amiable and quick to respond, though not always steady in seeing things through.",
+    "reversed_keywords": ["deception", "restlessness", "unreliability", "false charm", "risky offers"],
+    "reversed_text": "The dreamer turns idle and untruthful, someone who may invent experiences and let imagination run unchecked. If such a person brings you a proposal, be careful; trickery or self-interest may be behind it. This personality can be very persuasive and charming, and at its worst manipulative and predatory, willing to do nearly anything to get what it wants."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_queen",
+    "name": "Queen of Cups",
+    "upright_keywords": ["compassion", "intuition", "emotional depth", "devotion", "nurturing"],
+    "upright_text": "A deeply intuitive, caring presence, often someone who will quietly do a kindness for you. Visionary and sensitive, honest, loyal, and gentle, kind and generally content, though sometimes hard to fully read. Drawn to water and the imaginative life, capable of inspired ideas and uncannily accurate instincts. Her advice is worth listening to; she tends to be a devoted partner and parent.",
+    "reversed_keywords": ["emotional manipulation", "moodiness", "dishonesty", "unreliability", "self-interest"],
+    "reversed_text": "A harder, untrustworthy turn: a meddler fond of gossip with a loose grip on reality, able to convince herself that something imagined is real. Fickle and self-serving, she may ignore others' needs and try to twist someone's misfortune to her own advantage, prizing comfort and pleasure above even family. A kind, maternal surface can hide her true nature, and her words can breed distrust among friends. Be cautious of this energy."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "cups_king",
+    "name": "King of Cups",
+    "upright_keywords": ["emotional balance", "compassion", "wisdom", "diplomacy", "steadiness"],
+    "upright_text": "A mature, caring presence: responsible, kind, and highly intelligent, someone who owns his actions and takes a deep interest in the arts, sciences, and underlying principles. Like the ocean he's a real force, but a benevolent one; caring for others matters to him, and he'd make a fine healer, mentor, or devoted parent. If he appears, he's a benefactor, someone whose influence on your life is genuinely positive.",
+    "reversed_keywords": ["volatility", "manipulation", "hidden temper", "deceit", "control"],
+    "reversed_text": "Someone to watch. Beneath a calm, charming, easygoing surface can lie a fierce temper and a willingness to deceive or double-deal, even to take credit for others' ideas or take what isn't his. He may struggle with a poor partnership or an addiction. In a position of power this energy can stir up storms for everyone around it, with ambitions that respect no limits. Be cautious of this ruthless side."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_01",
+    "name": "Ace of Swords",
+    "upright_keywords": ["clarity", "breakthrough", "truth", "decisive force", "mental power"],
+    "upright_text": "A surge of clear thinking and decisive force, often a moment of triumph against the odds. Victory and success can follow your actions, with a sense that things are finally tipping in your favor. It's a strong card for sharp intellect and for anyone in fields like law, the military, or anything demanding clarity and conviction. Truth and justice are on your side.",
+    "reversed_keywords": ["chaos", "conflict", "misused power", "clouded judgment", "setbacks"],
+    "reversed_text": "Trouble brewing: a fight that ends with hopes dashed, or discord, enmity, and quarrels in the air. Obstacles stand in your way and judgment gets clouded by doubt, with a sense of reaping difficult consequences. Be careful how you use whatever power you hold. This is a card to handle with real care, especially in any tense or high-stakes conflict."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_02",
+    "name": "Two of Swords",
+    "upright_keywords": ["stalemate", "difficult choice", "inner balance", "tension", "avoidance"],
+    "upright_text": "A standoff that calls for inner steadiness as you face an important decision. You'll need to come to terms with your own limits and strengths, and master your ego, before you can move forward; harmony with yourself comes first, then harmony with the world. Until you find that balance you may stay stuck. It can also point to tension in a relationship.",
+    "reversed_keywords": ["movement", "release", "imposters", "hidden motives", "disloyalty"],
+    "reversed_text": "After a pause, things start moving again, though not always where you hoped. Watch for someone off-balance or two-faced in your life, an imposter who isn't what they seem, and be alert to disloyalty from people you know. At the same time, don't be afraid to extend sympathy to those who are genuinely struggling."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_03",
+    "name": "Three of Swords",
+    "upright_keywords": ["heartbreak", "sorrow", "separation", "painful truth", "grief"],
+    "upright_text": "A hard card pointing to emotional pain, quarrels, or separation. It can signal that things aren't going well in a relationship, or warn of an upset on the way. Sometimes it marks the end of a close bond, or a temporary parting from someone. On a wider scale it can speak to conflict and division in the world around you. Brace gently and tend to the hurt.",
+    "reversed_keywords": ["mental anguish", "overwhelm", "confusion", "recovery", "perspective"],
+    "reversed_text": "You may be so caught in your own turmoil that everything looks worse than it is. It helps to step back and widen your view to what's actually happening around you. Whatever losses you're facing or have faced will likely prove less devastating than they first seemed, even though they'll still leave a mark."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_04",
+    "name": "Four of Swords",
+    "upright_keywords": ["rest", "recovery", "retreat", "stillness", "healing"],
+    "upright_text": "A needed pause: the work or conflict is over, and whatever the outcome, it's time to recover your strength in body and mind. It can mark recovery from illness or strain, finally free of pain, moving into a better stretch. Let your worries settle. Alongside more difficult cards, it can hint at a period of isolation, even a feeling of being cut off from others.",
+    "reversed_keywords": ["renewed activity", "re-emergence", "caution", "pacing", "social friction"],
+    "reversed_text": "Things start moving again after a static spell. The caution is that your sudden burst of energy and decisiveness can leave others scrambling to keep pace. Think your actions through and be measured in your choices rather than charging ahead all at once."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_05",
+    "name": "Five of Swords",
+    "upright_keywords": ["defeat", "conflict", "hollow victory", "hard lessons", "self-interest"],
+    "upright_text": "A turn toward defeat or loss, sometimes unexpected: you thought things would go your way, then the tide shifted at the last moment. It can feel unfair, and there may be little you can do but learn from it and move on. Watch for the cruelty, slander, or cowardice of others, and be ready to stand up to adversity rather than be cheated of your ground.",
+    "reversed_keywords": ["misplaced pride", "hollow gains", "loss", "sorrow", "ego"],
+    "reversed_text": "A caution about your own limits, and the old truth that pride goes before a fall. Ego, complacency, or an inflated sense of your own worth can lead you into trouble or failure, and any victory may feel hollow and empty. You may face sorrow or weakness; it's worth asking whether you were really after something else all along."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_06",
+    "name": "Six of Swords",
+    "upright_keywords": ["transition", "moving on", "calmer waters", "recovery", "a journey"],
+    "upright_text": "A move from rough water into calmer: you can leave fears, anxieties, and worries behind as you head toward a more positive stretch. It can mean a literal journey, possibly over water, or an inner one that shifts your thinking. It may also point to a move, perhaps near water, or to sending someone to act on your behalf.",
+    "reversed_keywords": ["stagnation", "stuck", "unresolved fears", "lack of support", "delay"],
+    "reversed_text": "You may feel stuck in the current situation for a while, with stagnation a real risk if nothing changes. Unresolved fears and worries still linger, and they're the root of the problem, so they need facing. Be prepared, too, for limited support from others, who may not want to get involved in your difficulties."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_07",
+    "name": "Seven of Swords",
+    "upright_keywords": ["strategy", "evasion", "shortcuts", "getting away with it", "caution"],
+    "upright_text": "A caution against unwise or sneaky action: don't take credit for someone else's work, or take what isn't yours, since such moves tend to backfire. Own your actions, or your inaction, and don't dodge the truth; if you made a mistake, admit it. It can also flag plans that haven't been thought through, which can spark conflict with allies and, at best, only partial success. Don't put off what you can do now.",
+    "reversed_keywords": ["fresh start", "coming clean", "renewed help", "relief", "openness"],
+    "reversed_text": "After a stuck spell, you can put new plans into motion, often with others' help. You're able to relax and let old fears and hesitations fade, finding a new sense of freedom. You may cross paths with someone generous who's genuinely willing to help you."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_08",
+    "name": "Eight of Swords",
+    "upright_keywords": ["feeling trapped", "indecision", "self-imposed limits", "fear", "paralysis"],
+    "upright_text": "A sense of being hemmed in, often by your own fear and indecision more than outside walls. Don't give in to that fear now, or it'll keep you stuck; this isn't the moment for risky moves, so favor the steadier course and avoid needless danger. Above all, beware paralysis: make a firm decision and commit, since even a flawed choice moves you forward. Any illness here tends to pass.",
+    "reversed_keywords": ["release", "freedom", "fresh starts", "clarity", "careful action"],
+    "reversed_text": "You're breaking free, in body and mind, with fears and negative feelings lifting so you can move forward and make your own decisions again. The one caution is not to swing to the opposite extreme: don't act on impulse, and think your next steps through."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_09",
+    "name": "Nine of Swords",
+    "upright_keywords": ["anxiety", "grief", "sleepless worry", "despair", "dread"],
+    "upright_text": "A heavy, painful card. If it's come up, you may already be in a difficult emotional stretch, and what caused it can feel unavoidable. It can mark the loss of someone or something dear, or regret from being misled, and the result is grief that can put plans on hold until you can tend to your own reaction. Be gentle with yourself; the weight does ease in time.",
+    "reversed_keywords": ["patience", "healing", "perspective", "time", "recovery"],
+    "reversed_text": "A gentler turn. Patience is the virtue that carries you through both the hard times and the good. There's a note of selflessness here too. In difficult moments, hold on to the reminder that tomorrow is a new day and that time really does help heal."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_10",
+    "name": "Ten of Swords",
+    "upright_keywords": ["painful ending", "rock bottom", "defeat", "collapse", "release"],
+    "upright_text": "A low point: plans or projects have failed, and not even wealth or power could have stopped it. The setback can feel emotionally flattening, leaving you stunned and unable to act, whether the collapse is in work or at home. You may face a stretch of sadness, even tears, unless you gather your inner resources to push back. Try not to slip into a martyr's role; this is rock bottom, and the way is up.",
+    "reversed_keywords": ["recovery", "modest gains", "courage", "turning point", "asking for help"],
+    "reversed_text": "A more hopeful turn: modest success and profit, especially if the past was rough. Your courage serves you well and points toward further wins ahead. If you're up against lies, treachery, or ill will, that courage helps you prevail. And if you haven't yet reached out for support from a higher power or a trusted source, it may be worth considering."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_page",
+    "name": "Page of Swords",
+    "upright_keywords": ["vigilance", "curiosity", "diplomacy", "mental sharpness", "watchfulness"],
+    "upright_text": "A card of alertness and diplomacy. It can represent a young person in a watchful or protective role, or someone skilled at handling people tactfully, perhaps in public service. It may signal messages on the way that call for some diplomatic handling, and a caution to watch for someone keeping an eye on you. At its best it's about using intellect and grace to rise above conflict and shape your own outcome by standing firm.",
+    "reversed_keywords": ["deceit", "hidden motives", "surveillance", "ill health", "the unexpected"],
+    "reversed_text": "A warier note: cunning, aggression, or spite, and possibly a frivolous or two-faced person entering your life. Be ready for an unwelcome surprise; new acquaintances or even old friends may not be what they seem, so watch for imposters. Ill health could throw you off balance for a time. Plans may need to change as diplomacy gives way and a fresh conflict looms."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_knight",
+    "name": "Knight of Swords",
+    "upright_keywords": ["drive", "decisiveness", "courage", "conviction", "swift action"],
+    "upright_text": "A bold, active figure who can come across as domineering but has a genuinely good heart and real courage. If it's you, the nudge is to do what you believe is right; you take on challenges and keep your temper in check, just take care not to rush in too fast. It can mark the start of a more fortunate chapter. In a clash with a rival, defense tends to serve you better than attack, and it's wiser not to take on people who can't be reasoned with. Near certain cards it can signal an ending of some kind, not literal, but a real close.",
+    "reversed_keywords": ["aggression", "recklessness", "deceit", "cruelty", "self-destruction"],
+    "reversed_text": "A harder turn: a deceitful, boastful, or cruel figure who brings trouble. Be wary of argumentative, secretive people who brag, reopen old wounds, and resent others' happiness; you're usually better off keeping your distance and not engaging. If this describes you, it's a moment for honest self-reckoning, since without that awareness this path leads toward conflict and real damage to your life."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_queen",
+    "name": "Queen of Swords",
+    "upright_keywords": ["clarity", "independence", "honesty", "perceptiveness", "sharp wit"],
+    "upright_text": "A sharp, intelligent, perceptive presence: a clear-eyed observer you can trust for a fair and honest assessment. There's an air of dignity here, and often a streak of solitude, whether through loss, separation, or simply a preference for her own company over the company of fools. Well-read and quick-minded, she can seem aloof at first but is never dull; the better you know her, the better the conversation.",
+    "reversed_keywords": ["coldness", "bitterness", "malice", "gossip", "harsh judgment"],
+    "reversed_text": "A colder, more bitter turn: lonely and unhappy, given to slander and ill will, the archetypal wicked stepmother. Narrow-minded and vain, a know-it-all, sharp-tempered and deceitful, she blames the world for her isolation and wants it to pay. Don't expect her to soften her views or to welcome anyone she fears might threaten her standing; there's little to be learned from this energy. It's sometimes used to stand for politics and institutions."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "swords_king",
+    "name": "King of Swords",
+    "upright_keywords": ["intellect", "authority", "fairness", "clear judgment", "integrity"],
+    "upright_text": "A logical, rational figure of authority with a quick mind, sometimes old-fashioned, sometimes full of fresh ideas. His intellect can be hard to pin down, since he'll drop a concept the moment he judges it outworn, even one of his own. If he appears to counsel you, listen; his advice is sound and he's a good friend and leader. But his sword cuts both ways: a steadfast ally, yet a firm adversary if crossed. He often stands for someone in law, the military, medicine, or government, in a position of real responsibility.",
+    "reversed_keywords": ["manipulation", "harshness", "abuse of power", "coldness", "ruthlessness"],
+    "reversed_text": "A figure to treat with real caution: cruel, perverse, sometimes outright harsh. In any legal or business dealing, brace for a bad outcome, since he's a schemer who shouldn't be trusted. He can be hard to read until his true self surfaces, both quick to anger and a calculating manipulator. If this energy holds any power over you, it's best avoided entirely; it's the type to act first and reason later."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_01",
+    "name": "Ace of Pentacles",
+    "upright_keywords": ["new opportunity", "prosperity", "stability", "security", "manifestation"],
+    "upright_text": "A turn for the better in money and material life. Things grow more comfortable and steady, and you may see a real financial increase, a raise, or income from a new source. Pleasure, beauty, and contentment surround you, with a sense of being able to put down solid roots for yourself and your family. You're thinking more practically than ever, and that grounded clarity is a real advantage.",
+    "reversed_keywords": ["loss", "instability", "insecurity", "poor planning", "false starts"],
+    "reversed_text": "A caution against gambling or risk right now; you could lose financially, possibly your security, stability, or even your home, with money seeming to vanish. Avoid false starts, take stock of your finances, and rethink your spending. Be wary of loans you can't repay, which only deepen debt, and of anyone who might exploit a shaky moment to undermine your footing further."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_02",
+    "name": "Two of Pentacles",
+    "upright_keywords": ["balance", "juggling priorities", "adaptability", "flexibility", "flow"],
+    "upright_text": "You're managing to juggle two things at once, which is a strength, but the card carries a gentle warning: finish handling what's already on your plate before taking on anything new. With your hands this full, new projects could bring strain. Watch your moods too; you can work with a clear head, but your feelings may swing easily between high and low. Important news or messages, possibly in writing, may be coming.",
+    "reversed_keywords": ["overwhelm", "putting on a brave face", "imbalance", "overload"],
+    "reversed_text": "However much you try to look happy for others, or convince yourself, the contentment may not be real, so it's worth asking why you're wearing the mask, and whether you need to. The clearer message is that you don't have room for more right now. Learn to say no rather than piling on more; you're already overloaded and can't take on extra gracefully."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_03",
+    "name": "Three of Pentacles",
+    "upright_keywords": ["skill", "craftsmanship", "collaboration", "quality work", "recognition"],
+    "upright_text": "A card of skill and craftsmanship: what you achieve will come through your own ability and care. Take pride in your skills, since they can build your fortune and bring the rewards you're after, with real gain in commercial dealings when you apply them well. It can also point to those who work within deeper or specialized traditions, the dedicated craftsperson or initiate of a particular craft.",
+    "reversed_keywords": ["mediocrity", "lack of skill", "materialism", "unfinished work", "ego"],
+    "reversed_text": "A caution that you may not yet have the knowledge or skill for the work you're planning, and that gaps in either could trip you up; don't fool yourself about it. It's also a reminder that not everything is about money or material gain, and not to be stingy with what you have. It can hint, too, that the ideas you're embracing aren't actually as new as they seem."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_04",
+    "name": "Four of Pentacles",
+    "upright_keywords": ["security", "holding on", "stability", "control", "caution with resources"],
+    "upright_text": "A card of material security: you have property, money, and the safety wealth brings, whether earned or received through a gift or inheritance, and with it some of the power you sought. But it carries a warning not to let yourself become overly fixated on possessions. Remember to honor the emotional and spiritual sides of life too; clinging too tightly leaves you isolated, since no one warms to a miser.",
+    "reversed_keywords": ["greed", "possessiveness", "insecurity", "suspicion", "material loss"],
+    "reversed_text": "Material ambitions stumbling, with obstacles in the way and, at worst, the risk of real loss. The caution is not to let suspicion or your own prejudices interfere with business, since those traits may be feeding the current trouble. Be careful with money and don't waste whatever resources you still have."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_05",
+    "name": "Five of Pentacles",
+    "upright_keywords": ["hardship", "loss", "insecurity", "isolation", "hard times"],
+    "upright_text": "A rough stretch: a failed venture, lost work, a lost loved one, or a broken relationship. It's the kind of low point where you find out who you really are, a dark-night-of-the-soul moment, and a fitting time to look honestly at your limits. Even when things look bleak, there's comfort to be found in companionship and in a more spiritual way of living, and others in the same boat may help carry you through.",
+    "reversed_keywords": ["recovery", "renewed hope", "support", "turning a corner", "relief"],
+    "reversed_text": "Money or possessions you thought were gone may find their way back, though likely after some confusion first. If you're out of work, a new opportunity may appear, even if it isn't permanent. And these very hardships may have rekindled a genuine interest in spiritual matters."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_06",
+    "name": "Six of Pentacles",
+    "upright_keywords": ["generosity", "fairness", "giving and receiving", "balance", "gifts"],
+    "upright_text": "A card of fair, balanced dealings around money. You may receive an unexpected but much-needed gift, possibly even a sizable inheritance. If you're in a venture with others, profits tend to be shared out fairly; the same goes for anything jointly held, like a shared ticket or pooled stake. At its heart this is generosity tempered by justice, the open hand of someone with a genuinely good heart.",
+    "reversed_keywords": ["strings attached", "debt", "inequality", "hidden motives", "exploitation"],
+    "reversed_text": "Watch for people who flash their money around, since nothing here is truly free. A gift may be more about the giver's ego than real care for you, and an offer that conveniently rescues you may come with an expectation of repayment later. Read the fine print on any loan, watch for bad debts, and be wary of a bribe in any form, financial or otherwise, since taking it only opens the door to further compromise."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_07",
+    "name": "Seven of Pentacles",
+    "upright_keywords": ["patience", "long-term effort", "assessment", "waiting", "investment"],
+    "upright_text": "A card of patience: you have to wait before all the work and effort finally pays off. Try not to fret over the result; if you've been diligent, things tend to come right. It applies to work and business dealings, and possibly to securing a loan. It's a pause, a quiet stretch in the action that gives you room to weigh what your next move should be.",
+    "reversed_keywords": ["impatience", "poor returns", "anxiety", "frustration", "disappointment"],
+    "reversed_text": "A stretch of anxiety about whether your labors will pay off. Try not to let impatience take over; at this point it's largely too late to change the outcome, so what will be, will be. If the result turns out disappointing, which is a real possibility here, there's little you can do about it now but accept it and learn for next time."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_08",
+    "name": "Eight of Pentacles",
+    "upright_keywords": ["skill-building", "diligence", "craftsmanship", "learning", "dedication"],
+    "upright_text": "A card of learning and applying yourself: to succeed, you may need to master a new skill, and a fresh period of study is beginning. The skill tends to be hands-on, possibly in the arts or crafts. Put in the work and it can lead to recognition, steady employment, and commissions for what you make. This is the apprentice becoming the craftsperson through patient effort.",
+    "reversed_keywords": ["cut corners", "poor quality", "misused skill", "vanity", "lost ambition"],
+    "reversed_text": "Ambitions can stumble here through ego or vanity. The caution is against bending your skills toward questionable, or outright dishonest, ends. Watch, too, for double-dealing and intrigue around you. Keep your standards honest and your motives clean, or the work won't hold up."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_09",
+    "name": "Nine of Pentacles",
+    "upright_keywords": ["self-sufficiency", "comfort", "independence", "accomplishment", "refinement"],
+    "upright_text": "A card of earned comfort and quiet enjoyment: you're savoring the good things in life, often through your own self-control and discipline. There's a love of home and of calmer, more grounded pursuits, and a sense of having achieved what you set out to, sometimes leaning on traits like diplomacy, empathy, and wisdom. It carries a gentle caution, though: stay prudent in your affairs, especially those touching home and family.",
+    "reversed_keywords": ["insecurity", "setbacks", "loss", "recklessness", "caution needed"],
+    "reversed_text": "A call to be careful of others' actions, and to guard against those who might take from you, literally or otherwise. There's a risk to home and friendships if you ignore the warning signs, so stay alert. Projects you're planning, or already working on, may end up cancelled, so don't overextend."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_10",
+    "name": "Ten of Pentacles",
+    "upright_keywords": ["legacy", "family", "wealth", "tradition", "lasting security"],
+    "upright_text": "A card of family, legacy, and lasting security: inheritance, ancestry, the passing down of wisdom, or acquiring a new home or premises. Where it touches inherited money or property, a pension or a will, it can flag matters that need sorting out. If you're facing a problem now, it nudges you to seek the counsel of the elders in your family; listening to them tends to pay off in the long run.",
+    "reversed_keywords": ["family conflict", "loss", "instability", "disputes", "risky ventures"],
+    "reversed_text": "A note of family misfortune, more likely tied to money or property than to a death. An older relative may become a heavier responsibility for the family right now. If you're expecting a legacy, obstacles may shrink it below what you'd hoped. And be wary of poorly thought-out ventures; this is a risky moment for them, so it's better to stay out."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_page",
+    "name": "Page of Pentacles",
+    "upright_keywords": ["diligence", "study", "good news about money", "reliability", "focus"],
+    "upright_text": "A card of someone who isn't afraid of hard work and gains from it in both practical and personal ways. It can stand for a generous, careful, diligent friend, or a messenger bringing good news about savings, investments, or money. It suits people in news, media, or communication, and can also mark a capable manager or a dedicated scholar, conscientious and disciplined, able to put knowledge to good use. It may point to a productive meeting as well.",
+    "reversed_keywords": ["carelessness", "waste", "idleness", "delays", "poor management"],
+    "reversed_text": "A wastefulness or idleness that squanders effort and money, leaving someone open to being taken advantage of, the prodigal who hasn't yet turned back. Meetings may go poorly and eat up your time, so they might be worth postponing. Things can feel scattered and incoherent; don't be stubborn about mistakes, own them and learn. It's a moment to push forward and tend the work in front of you rather than standing idle, though awaited news may be held up by others."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_knight",
+    "name": "Knight of Pentacles",
+    "upright_keywords": ["reliability", "patience", "hard work", "responsibility", "steadiness"],
+    "upright_text": "A patient, responsible, trustworthy presence, sometimes a person of that kind entering your life. If you're waiting on news, be patient; it tends to arrive in its own time, since the one carrying it goes about things without rushing. If the card is you, you're dependable and hardworking, occasionally caught in your own head but steadied by strong instincts, persevering until the goal is reached. Even out of work, don't give up; work tends to come. Money matters move to the foreground now.",
+    "reversed_keywords": ["stagnation", "idleness", "stubbornness", "dullness", "inertia"],
+    "reversed_text": "A duller, stuck energy: someone careless or idle, conservative and timid, set in their ways and not exactly imaginative. If it describes you, the nudge is to shake off the idleness and inertia; laziness gets you nowhere, and minding other people's lives even less, so tend to your own. It can also mark someone shy and timid by nature; if that's you, the call is to rouse yourself, find some motivation, and be brave."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_queen",
+    "name": "Queen of Pentacles",
+    "upright_keywords": ["nurturing", "abundance", "practicality", "security", "generosity"],
+    "upright_text": "An Earth Mother figure: generous, kind, nurturing, and noble, sometimes a mother or grandmother in your life. She's trustworthy and practical, the kind of presence who instills a sense of security, and she's always ready to help. Intelligent and wise, she rules the material side of things, with a leaning toward the sciences, especially anything to do with the land or animals. She can point to a wealthy benefactor, possibly within your own family. She loves splendor and is happiest at home in the country rather than the city, and wealth, like animals and birds, seems drawn naturally to her door.",
+    "reversed_keywords": ["neglect", "dependence", "self-doubt", "idleness", "gloom"],
+    "reversed_text": "A duller, more listless turn: someone idle and unmotivated, with no ambition and little will to work. There can be a foolishness with money, and at its worst a slide into escape through drink or other excess out of sheer boredom. Stubborn and self-absorbed, dependent on others, she lets her own limits talk her out of bettering herself, and may come across as mistrustful, gloomy, or low. The way out is to wake up; otherwise the risk is spending the whole time lamenting her lot instead of changing it."
+  },
+  {
+    "set_id": "REPLACE_WITH_YOUR_SET_UUID",
+    "card_id": "pentacles_king",
+    "name": "King of Pentacles",
+    "upright_keywords": ["prosperity", "reliability", "discipline", "leadership", "security"],
+    "upright_text": "An industrious, grounded man: a banker, landowner, scientist, or the steady married type, temperate and reliable. Slow to anger and patient, he's someone you can lean on, loyal and trustworthy, who thinks before he acts. He has a real gift for money and can build serious wealth and standing, persevering at work where others give up. Practical and resourceful, full of energy though he may strike some as dull, he likes to take things apart and fix them. In government, finance, or teaching he's well worth knowing. One caution: as a partner, he'll expect to hold the purse strings.",
+    "reversed_keywords": ["greed", "stubbornness", "materialism", "corruption", "recklessness"],
+    "reversed_text": "A heavier, meaner turn: someone who squanders his gifts, miserly one moment and a reckless gambler the next, and dangerous to cross. Insensitive and rigid, he refuses to take in anything outside his own narrow thinking, which can make him seem dull and oafish. Usually slow to anger, but once roused he's a ruthless, stubborn enemy. Anyone unconventional or spiritually minded tends to irritate him by challenging his certainties. He can be heavy-handed at home. At bottom a weak character who gives in to his lower appetites, his attitude amounts to I'm fine and everyone else can go hang. If he turns up, he's usually best left alone."
+  }
+]
