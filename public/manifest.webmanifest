@@ -1,0 +1,11 @@
+{
+  "name": "Tarot",
+  "short_name": "Tarot",
+  "description": "A personal, AI-assisted tarot app for reading, reflection, and learning.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1b1430",
+  "theme_color": "#1b1430",
+  "orientation": "portrait",
+  "icons": []
+}

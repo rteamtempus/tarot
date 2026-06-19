@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+/* ============================================================
+   Tarot design tokens — a calm "night & parchment" palette.
+   Deep indigo night for chrome, warm parchment for reading
+   surfaces, a single antique-gold accent. The app is a
+   reflective mirror, not a neon fortune-teller: low arousal,
+   generous space, serif display for headings.
+   ============================================================ */
+@theme {
+  --color-night: #1b1430;        /* deep indigo — app background / chrome */
+  --color-night-soft: #2a2147;   /* raised surfaces on night */
+  --color-parchment: #f5efe2;    /* warm reading surface */
+  --color-surface: #fffdf8;      /* card surface */
+
+  --color-ink: #2b2535;          /* primary text on light */
+  --color-ink-soft: #6b6478;
+  --color-ink-faint: #a79fb3;
+  --color-on-night: #ece7f5;     /* text on the night background */
+  --color-on-night-soft: #b6acce;
+
+  --color-gold: #c9a24b;         /* antique-gold accent — primary action */
+  --color-gold-deep: #a8842f;
+  --color-mist: #e6ded0;         /* hairlines, chips on parchment */
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI',
+    Roboto, sans-serif;
+  --font-display: 'Cormorant Garamond', ui-serif, Georgia, 'Times New Roman',
+    serif;
+  --radius-card: 1.1rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-night);
+  color: var(--color-on-night);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* respect iOS safe areas for the installed PWA */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+/* Honor reduced-motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
