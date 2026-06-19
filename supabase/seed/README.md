@@ -10,8 +10,11 @@ Reference / built-in data for the tarot app. All of it lives in the **shared** S
 - **`0002_seed_reference.sql`** — GENERATED. Contains:
   - all 78 canonical cards (RWS-78),
   - the built-in **Original (RWS-based)** interpretation set (row only),
-  - the built-in **Rider-Waite-Smith** deck + `card_images` path mappings (`rws/<card_id>.png` in the
-    `tarot-card-art` bucket),
+  - the built-in **Rider-Waite-Smith** deck + `card_images` path mappings. Paths match the art
+    **as dumped** in the `tarot-card-art` bucket — original filenames at the bucket root
+    (majors `NN-PascalName.png`, minors `SuitNN.png` with courts 11–14). The in-bucket folder is the
+    `ART_PREFIX` constant in `build-seed.mjs` (default `''` = root); set it if the files live in a
+    subfolder and re-run.
   - the built-in spreads: **Three-Card**, **Celtic Cross**, **Cross of Kells**,
   - the `tarot_principles` AI scaffolding.
 

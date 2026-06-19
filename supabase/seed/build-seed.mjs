@@ -48,7 +48,16 @@ const SUITS = [
 ];
 const PIPS = ['Ace', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
 const COURTS = ['page', 'knight', 'queen', 'king'];
+const COURT_NUM = { page: 11, knight: 12, queen: 13, king: 14 }; // matches the dumped art naming
 const cap = (s) => s[0].toUpperCase() + s.slice(1);
+// Folder INSIDE the bucket where the art lives. '' = bucket root. If you dropped
+// the files into a subfolder (e.g. 'rws/'), set it here and re-run.
+const ART_PREFIX = '';
+// `image_path` must match the art filenames as dumped in the bucket (as-is):
+//   majors  -> "NN-PascalName.png"  e.g. "10-WheelOfFortune.png"
+//   minors  -> "SuitNN.png"         pips 01-10, courts 11-14  e.g. "Cups13.png"
+const majorArt = (i, name) =>
+  `${String(i).padStart(2, '0')}-${name.split(' ').map(cap).join('')}.png`;
 
 const cards = [];
 let order = 0;
@@ -56,7 +65,7 @@ MAJORS.forEach((name, i) => {
   cards.push({
     id: `major_${String(i).padStart(2, '0')}_${slug(name)}`,
     name, arcana: 'major', suit: null, number: i, court: null,
-    element: null, sort_order: order++,
+    element: null, sort_order: order++, art: majorArt(i, name),
   });
 });
 for (const { suit, element } of SUITS) {
@@ -65,14 +74,14 @@ for (const { suit, element } of SUITS) {
     cards.push({
       id: `${suit}_${String(n).padStart(2, '0')}`,
       name: `${pip} of ${cap(suit)}`, arcana: 'minor', suit, number: n, court: null,
-      element, sort_order: order++,
+      element, sort_order: order++, art: `${cap(suit)}${String(n).padStart(2, '0')}.png`,
     });
   });
   for (const court of COURTS) {
     cards.push({
       id: `${suit}_${court}`,
       name: `${cap(court)} of ${cap(suit)}`, arcana: 'minor', suit, number: null, court,
-      element, sort_order: order++,
+      element, sort_order: order++, art: `${cap(suit)}${COURT_NUM[court]}.png`,
     });
   }
 }
@@ -170,7 +179,7 @@ on conflict (id) do update set
   is_public = excluded.is_public, is_builtin = excluded.is_builtin;
 
 insert into tarot_card_images (deck_id, card_id, image_path) values
-${cards.map((c) => `  (${q(DECK_RWS)}, ${q(c.id)}, ${q(`rws/${c.id}.png`)})`).join(',\n')}
+${cards.map((c) => `  (${q(DECK_RWS)}, ${q(c.id)}, ${q(`${ART_PREFIX}${c.art}`)})`).join(',\n')}
 on conflict (deck_id, card_id) do update set image_path = excluded.image_path;
 
 `;

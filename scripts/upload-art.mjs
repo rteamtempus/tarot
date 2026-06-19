@@ -1,12 +1,15 @@
 // ============================================================
 // upload-art.mjs — create the public `tarot-card-art` bucket (if needed) and
-// upload the staged card images to it.
+// upload the card art as-is.
 //
 //   npm run art:upload
 //
-// Reads ./art-upload/rws/*.png (run `npm run stage:art` first) and uploads each
-// to rws/<file> in the bucket. Requires SUPABASE_SERVICE_ROLE_KEY in .env
-// (gitignored) — the service role bypasses RLS for the upload.
+// Uploads ./Cards-png/*.png to <ART_PREFIX><filename> in the bucket, matching
+// the image_path values the seed generates (original filenames, bucket root by
+// default). Requires SUPABASE_SERVICE_ROLE_KEY in .env (gitignored).
+//
+// You can also just drag the files into the bucket via the dashboard — this is
+// only for a reproducible/repeatable upload.
 //
 // WARNING: writes to the LIVE shared Storage. Run deliberately.
 // ============================================================
@@ -19,6 +22,8 @@ import { loadEnv, SUPABASE_URL } from './_env.mjs';
 loadEnv();
 
 const BUCKET = 'tarot-card-art';
+const ART_PREFIX = ''; // keep in sync with build-seed.mjs ART_PREFIX
+
 const key = process.env['SUPABASE_SERVICE_ROLE_KEY'];
 if (!key) {
   console.error(
@@ -28,9 +33,9 @@ if (!key) {
   process.exit(1);
 }
 
-const dir = join(dirname(fileURLToPath(import.meta.url)), '..', 'art-upload', 'rws');
+const dir = join(dirname(fileURLToPath(import.meta.url)), '..', 'Cards-png');
 if (!existsSync(dir)) {
-  console.error(`No staged art at ${dir}. Run: npm run stage:art`);
+  console.error(`No art folder at ${dir}.`);
   process.exit(1);
 }
 
@@ -55,7 +60,7 @@ let ok = 0;
 for (const f of files) {
   const { error } = await supabase.storage
     .from(BUCKET)
-    .upload(`rws/${f}`, readFileSync(join(dir, f)), {
+    .upload(`${ART_PREFIX}${f}`, readFileSync(join(dir, f)), {
       contentType: 'image/png',
       upsert: true,
     });
@@ -65,4 +70,4 @@ for (const f of files) {
     ok++;
   }
 }
-console.log(`Uploaded ${ok}/${files.length} files to ${BUCKET}/rws/.`);
+console.log(`Uploaded ${ok}/${files.length} files to ${BUCKET}/ (prefix "${ART_PREFIX}").`);

@@ -8,7 +8,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "seed:build": "node supabase/seed/build-seed.mjs",
-    "stage:art": "node scripts/stage-art.mjs",
     "db:apply": "node scripts/apply-sql.mjs",
     "art:upload": "node scripts/upload-art.mjs"
   },
