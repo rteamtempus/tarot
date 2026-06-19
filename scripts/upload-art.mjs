@@ -22,7 +22,7 @@ import { loadEnv, SUPABASE_URL } from './_env.mjs';
 loadEnv();
 
 const BUCKET = 'tarot-card-art';
-const ART_PREFIX = ''; // keep in sync with build-seed.mjs ART_PREFIX
+const ART_PREFIX = 'rws/'; // keep in sync with build-seed.mjs ART_PREFIX
 
 const key = process.env['SUPABASE_SERVICE_ROLE_KEY'];
 if (!key) {

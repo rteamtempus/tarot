@@ -52,7 +52,7 @@ const COURT_NUM = { page: 11, knight: 12, queen: 13, king: 14 }; // matches the 
 const cap = (s) => s[0].toUpperCase() + s.slice(1);
 // Folder INSIDE the bucket where the art lives. '' = bucket root. If you dropped
 // the files into a subfolder (e.g. 'rws/'), set it here and re-run.
-const ART_PREFIX = '';
+const ART_PREFIX = 'rws/';
 // `image_path` must match the art filenames as dumped in the bucket (as-is):
 //   majors  -> "NN-PascalName.png"  e.g. "10-WheelOfFortune.png"
 //   minors  -> "SuitNN.png"         pips 01-10, courts 11-14  e.g. "Cups13.png"
