@@ -3,9 +3,10 @@
 Built-in / reference data for the tarot app. It ships as **timestamped migrations** (so a single
 `supabase db push` applies schema + data), generated from source by `build-seed.mjs`.
 
-> Everything lives in the **shared** life-assistant Supabase project. Apply via `supabase db push`
-> deliberately — it writes to the live DB. See [`../../CLAUDE.md`](../../CLAUDE.md) for the
-> shared-migration-history rules.
+> Everything lives in the **shared** life-assistant Supabase project. **Do NOT `supabase db push`**
+> (the shared migration history makes it refuse). Apply directly: `npm run db:bundle` → run
+> `../apply/tarot_apply.sql` in the SQL Editor, or `npm run db:apply -- <files…>`. See
+> [`../../CLAUDE.md`](../../CLAUDE.md) for the full rationale.
 
 ## Generator
 - **`build-seed.mjs`** — run with `npm run seed:build` (repo root). Reads the canonical card list

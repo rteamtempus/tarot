@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "seed:build": "node supabase/seed/build-seed.mjs",
+    "db:bundle": "node scripts/build-apply-bundle.mjs",
     "db:apply": "node scripts/apply-sql.mjs",
     "art:upload": "node scripts/upload-art.mjs"
   },

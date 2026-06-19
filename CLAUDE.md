@@ -41,10 +41,13 @@ source of truth for the DB).
   `supabase/seed/build-seed.mjs` (`npm run seed:build`) from the canonical card list +
   `interpretations.json`. Edit those sources and re-run; never hand-edit the generated `*_seed_*`
   migrations.
-- Apply with `supabase db push` from this folder (`supabase link --project-ref
-  snlrpqamjzwoksmoxzir` first). **If prompted for `supabase migration repair`, read the
-  shared-history section in the workspace-root [`../CLAUDE.md`](../CLAUDE.md) first** — it's usually
-  the harmless cross-app overlap; mark-as-applied, never `db reset` the remote.
+- **Do NOT use `supabase db push`** — the SHARED migration history makes it refuse (it demands the
+  local folder contain life-assistant's `000N` versions). Apply tarot migrations **directly**:
+  `npm run db:bundle` → paste `supabase/apply/tarot_apply.sql` into the Supabase SQL Editor and Run;
+  or `npm run db:apply -- <files…>` (direct `pg`, needs `SUPABASE_DB_PASSWORD` in `.env`). Neither
+  touches `supabase_migrations`, keeping the two apps' histories decoupled. **Full rationale + the
+  "never run the suggested `migration repair`/`db reset`" warning is in the workspace-root
+  [`../CLAUDE.md`](../CLAUDE.md).**
 - Edge Functions: `supabase/functions/`.
 - **Cloud writes are the LIVE shared database** — apply migrations / `db push` deliberately. Commit +
   push at the end of each task (Rory tests remotely).
